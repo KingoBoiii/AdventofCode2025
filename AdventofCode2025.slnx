@@ -5,4 +5,7 @@
   <Folder Name="/src/">
     <Project Path="src/AdventofCode2025/AdventofCode2025.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AdventofCode2025.Tests/AdventofCode2025.Tests.csproj" Id="ec78c7d3-8be8-4b58-b950-0677a8028765" />
+  </Folder>
 </Solution>
