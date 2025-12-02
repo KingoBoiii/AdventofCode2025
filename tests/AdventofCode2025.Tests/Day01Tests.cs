@@ -1,6 +1,6 @@
 ﻿namespace AdventofCode2025.Tests;
 
-public sealed class Day1Tests
+public sealed class Day01Tests
 {
     public static IEnumerable<object[]> ExampleLines => new List<object[]>
     {
@@ -22,7 +22,7 @@ public sealed class Day1Tests
     [MemberData(nameof(ExampleLines))]
     public void Day1_Part1_Example_Password_ReturnsCorrectValue(string[] lines)
     {
-        var examplePassword = Day1.GetPart1Password(lines);
+        var examplePassword = Day01.GetPart1Password(lines);
 
         Assert.Equal("3", examplePassword);
     }
@@ -31,7 +31,7 @@ public sealed class Day1Tests
     [MemberData(nameof(ExampleLines))]
     public void Day1_Part2_Example_Password_ReturnsCorrectValue(string[] lines)
     {
-        var examplePassword = Day1.GetPart2Password(lines);
+        var examplePassword = Day01.GetPart2Password(lines);
 
         Assert.Equal("6", examplePassword);
     }

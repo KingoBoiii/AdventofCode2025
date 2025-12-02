@@ -1,6 +1,6 @@
 ﻿namespace AdventofCode2025.Tests;
 
-public sealed class Day2Tests
+public sealed class Day02Tests
 {
     public static IEnumerable<object[]> ExampleProductIds => new List<object[]>
     {
@@ -11,7 +11,7 @@ public sealed class Day2Tests
     [MemberData(nameof(ExampleProductIds))]
     public void Day2_Part1_InvalidProductIds_ReturnsCorrectValue(string productIds)
     {
-        var solution = Day2.GetInvalidIdSum(productIds);
+        var solution = Day02.GetInvalidIdSum(productIds);
 
         Assert.Equal("1227775554", solution);
     }
@@ -20,7 +20,7 @@ public sealed class Day2Tests
     [MemberData(nameof(ExampleProductIds))]
     public void Day2_Part2_InvalidProductIds_ReturnsCorrectValue(string productIds)
     {
-        var solution = Day2.GetInvalidIdSum2(productIds);
+        var solution = Day02.GetInvalidIdSum2(productIds);
 
         Assert.Equal("4174379265", solution);
     }

@@ -2,9 +2,9 @@
 
 namespace AdventofCode2025;
 
-public static partial class Day2
+public static partial class Day02
 {
-    internal static string GetInvalidIdSum2(string productIds)
+    internal static string GetInvalidIdSum(string productIds)
     {
         var productIdsRange = productIds.Split(',', StringSplitOptions.RemoveEmptyEntries);
 
@@ -22,7 +22,7 @@ public static partial class Day2
             {
                 var idString = id.ToString();
 
-                var repeatedIds = TwiceRepeatedDigitsRegex().Matches(idString).Select(m => long.Parse(m.Value));
+                var repeatedIds = RepeatedDigitsRegex().Matches(idString).Select(m => long.Parse(m.Value));
                 if (repeatedIds.Any())
                 {
                     invalidProductIds.Add(idString);
@@ -33,7 +33,7 @@ public static partial class Day2
         return invalidProductIds.Select(long.Parse).Sum().ToString();
     }
 
-    [GeneratedRegex(@"\b(\d+)\1+\b")]
-    private static partial Regex TwiceRepeatedDigitsRegex();
+    [GeneratedRegex(@"\b(\d+)\1\b")]
+    private static partial Regex RepeatedDigitsRegex();
 }
 

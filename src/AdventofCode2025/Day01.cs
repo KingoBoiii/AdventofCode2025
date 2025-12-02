@@ -1,6 +1,6 @@
 ﻿namespace AdventofCode2025;
 
-public static partial class Day1
+public static partial class Day01
 {
     private const string PuzzleInputFilePath = "assets/Input_Day1.txt";
 
