@@ -9,7 +9,7 @@ public sealed class Day02Tests
 
     [Theory]
     [MemberData(nameof(ExampleProductIds))]
-    public void Day2_Part1_InvalidProductIds_ReturnsCorrectValue(string productIds)
+    public void Part1_InvalidProductIds_ReturnsCorrectValue(string productIds)
     {
         var solution = Day02.GetInvalidIdSum(productIds);
 
@@ -18,7 +18,7 @@ public sealed class Day02Tests
 
     [Theory]
     [MemberData(nameof(ExampleProductIds))]
-    public void Day2_Part2_InvalidProductIds_ReturnsCorrectValue(string productIds)
+    public void Part2_InvalidProductIds_ReturnsCorrectValue(string productIds)
     {
         var solution = Day02.GetInvalidIdSum2(productIds);
 

@@ -20,7 +20,7 @@ public sealed class Day01Tests
 
     [Theory]
     [MemberData(nameof(ExampleLines))]
-    public void Day1_Part1_Example_Password_ReturnsCorrectValue(string[] lines)
+    public void Part1_Example_Password_ReturnsCorrectValue(string[] lines)
     {
         var examplePassword = Day01.GetPart1Password(lines);
 
@@ -29,7 +29,7 @@ public sealed class Day01Tests
 
     [Theory]
     [MemberData(nameof(ExampleLines))]
-    public void Day1_Part2_Example_Password_ReturnsCorrectValue(string[] lines)
+    public void Part2_Example_Password_ReturnsCorrectValue(string[] lines)
     {
         var examplePassword = Day01.GetPart2Password(lines);
 
