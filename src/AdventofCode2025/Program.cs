@@ -27,3 +27,14 @@ Console.WriteLine($"Invalid Product Id Sum (2): {invalidIdSum2}");
 Console.WriteLine();
 Console.WriteLine("===================================");
 Console.WriteLine();
+
+Console.WriteLine("Advent of Code 2025 - Day 3");
+
+var day03Part1Solution = Day03.GetPart1Solution();
+
+Console.WriteLine($"Largest Joltage Rating: {day03Part1Solution}");
+
+Console.WriteLine();
+Console.WriteLine("===================================");
+Console.WriteLine();
+
