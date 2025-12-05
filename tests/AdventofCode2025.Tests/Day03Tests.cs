@@ -20,4 +20,13 @@ public sealed class Day03Tests
 
         Assert.Equal("357", solution);
     }
+
+    [Theory]
+    [MemberData(nameof(JoltageRatings))]
+    public void Part2_SumJoltageRatings_ReturnsCorrectValue(string[] joltageRatings)
+    {
+        var solution = Day03.GetLargestSumOverride(joltageRatings);
+
+        Assert.Equal("3121910778619", solution);
+    }
 }

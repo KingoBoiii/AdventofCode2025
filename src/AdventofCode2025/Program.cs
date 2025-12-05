@@ -31,8 +31,10 @@ Console.WriteLine();
 Console.WriteLine("Advent of Code 2025 - Day 3");
 
 var day03Part1Solution = Day03.GetPart1Solution();
+var day03Part2Solution = Day03.GetPart2Solution();
 
 Console.WriteLine($"Largest Joltage Rating: {day03Part1Solution}");
+Console.WriteLine($"Largest Joltage Rating (Override): {day03Part2Solution}");
 
 Console.WriteLine();
 Console.WriteLine("===================================");

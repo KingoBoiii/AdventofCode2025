@@ -11,7 +11,7 @@ public static partial class Day03
 
     internal static string GetPart2Solution()
     {
-        return string.Empty;
+        return GetLargestSumOverride(File.ReadAllLines(PuzzleInputFilePath));
     }
 }
 
