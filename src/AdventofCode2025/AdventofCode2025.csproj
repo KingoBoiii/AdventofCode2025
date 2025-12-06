@@ -23,6 +23,10 @@
 		<Copy SourceFiles="$(SolutionDir)assets\Input_Day4.txt"
 			  DestinationFolder="$(OutputPath)\assets"
 			  SkipUnchangedFiles="true" />
+
+		<Copy SourceFiles="$(SolutionDir)assets\Input_Day5.txt"
+			  DestinationFolder="$(OutputPath)\assets"
+			  SkipUnchangedFiles="true" />
 	</Target>
 
 </Project>

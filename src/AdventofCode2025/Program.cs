@@ -52,4 +52,16 @@ Console.WriteLine();
 Console.WriteLine("===================================");
 Console.WriteLine();
 
+Console.WriteLine("Advent of Code 2025 - Day 5");
+
+var day05Part1Solution = Day05.GetPart1Solution();
+var day05Part2Solution = Day05.GetPart2Solution();
+
+Console.WriteLine($"Part 1 Solution: {day05Part1Solution}");
+Console.WriteLine($"Part 2 Solution: {day05Part2Solution}");
+
+Console.WriteLine();
+Console.WriteLine("===================================");
+Console.WriteLine();
+
 

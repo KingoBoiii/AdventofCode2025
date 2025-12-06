@@ -4,6 +4,7 @@
     <File Path="assets/Input_Day2.txt" />
     <File Path="assets/Input_Day3.txt" />
     <File Path="assets/Input_Day4.txt" />
+    <File Path="assets/Input_Day5.txt" />
   </Folder>
   <Folder Name="/src/">
     <Project Path="src/AdventofCode2025/AdventofCode2025.csproj" />
