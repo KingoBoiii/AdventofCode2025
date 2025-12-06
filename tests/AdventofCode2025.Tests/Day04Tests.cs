@@ -31,6 +31,8 @@ public sealed class Day04Tests
     [MemberData(nameof(PaperRollsGrid))]
     public void Part2_SumJoltageRatings_ReturnsCorrectValue(string[] paperRollsGrid)
     {
-        Assert.Equal("3121910778619", "solution");
+        var solution = Day04.CountTotalAccessible(paperRollsGrid);
+
+        Assert.Equal("43", solution);
     }
 }

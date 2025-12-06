@@ -11,7 +11,7 @@ public static partial class Day04
 
     internal static string GetPart2Solution()
     {
-        return string.Empty;
+        return CountTotalAccessible(File.ReadAllLines(PuzzleInputFilePath));
     }
 }
 
