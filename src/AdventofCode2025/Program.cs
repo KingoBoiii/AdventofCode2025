@@ -40,7 +40,7 @@ Console.WriteLine();
 Console.WriteLine("===================================");
 Console.WriteLine();
 
-Console.WriteLine("Advent of Code 2025 - Day 3");
+Console.WriteLine("Advent of Code 2025 - Day 4");
 
 var day04Part1Solution = Day04.GetPart1Solution();
 var day04Part2Solution = Day04.GetPart2Solution();
