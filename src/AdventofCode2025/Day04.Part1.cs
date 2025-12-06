@@ -14,15 +14,29 @@ public static partial class Day04
         {
             for (int c = 0; c < cols; c++)
             {
-                if (lines[r][c] != '@') continue;
+                if (lines[r][c] != '@')
+                {
+                    continue;
+                }
+
                 int neighbors = 0;
                 for (int k = 0; k < 8; k++)
                 {
                     int nr = r + dr[k], nc = c + dc[k];
-                    if (nr < 0 || nr >= rows || nc < 0 || nc >= cols) continue;
-                    if (lines[nr][nc] == '@') neighbors++;
+                    if (nr < 0 || nr >= rows || nc < 0 || nc >= cols)
+                    {
+                        continue;
+                    }
+
+                    if (lines[nr][nc] == '@')
+                    {
+                        neighbors++;
+                    }
                 }
-                if (neighbors < 4) accessible++;
+                if (neighbors < 4)
+                {
+                    accessible++;
+                }
             }
         }
 
