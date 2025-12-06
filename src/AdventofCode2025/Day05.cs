@@ -11,7 +11,7 @@ public static partial class Day05
 
     internal static string GetPart2Solution()
     {
-        return string.Empty;
+        return CountFreshIngredientIds(File.ReadAllLines(PuzzleInputFilePath));
     }
 
     private static (string[] IngredientIdRanges, string[] IngredientIds) SplitOnBlankEntry(string[] lines)

@@ -32,8 +32,8 @@ public sealed class Day05Tests
     [MemberData(nameof(IngredientIds))]
     public void Part2_CountFreshIngredients_ReturnsCorrectValue(string[] ingredientIds)
     {
-        var solution = string.Empty;
+        var solution = Day05.CountFreshIngredientIds(ingredientIds);
 
-        Assert.Equal("43", solution);
+        Assert.Equal("14", solution);
     }
 }
