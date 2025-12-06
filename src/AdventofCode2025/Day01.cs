@@ -2,7 +2,7 @@
 
 public static partial class Day01
 {
-    private const string PuzzleInputFilePath = "assets/Input_Day1.txt";
+    private const string PuzzleInputFilePath = "assets/Input_Day01.txt";
 
     public static string GetPart1Solution()
     {
