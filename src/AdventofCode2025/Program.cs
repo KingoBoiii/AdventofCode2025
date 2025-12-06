@@ -6,11 +6,11 @@ Console.WriteLine();
 
 Console.WriteLine("Advent of Code 2025 - Day 1");
 
-var password = Day01.GetPart1Solution();
-var part2Password = Day01.GetPart2Solution();
+var day01Part1Solution = Day01.GetPart1Solution();
+var day01Part2Solution = Day01.GetPart2Solution();
 
-Console.WriteLine($"Password: {password}");
-Console.WriteLine($"Password (method 0x434C49434B): {part2Password}");
+Console.WriteLine($"Password: {day01Part1Solution}");
+Console.WriteLine($"Password (method 0x434C49434B): {day01Part2Solution}");
 
 Console.WriteLine();
 Console.WriteLine("===================================");
@@ -18,11 +18,11 @@ Console.WriteLine();
 
 Console.WriteLine("Advent of Code 2025 - Day 2");
 
-var invalidIdSum = Day02.GetPart1Solution();
-var invalidIdSum2 = Day02.GetPart2Solution();
+var day02Part1Solution = Day02.GetPart1Solution();
+var day02Part2Solution = Day02.GetPart2Solution();
 
-Console.WriteLine($"Invalid Product Id Sum: {invalidIdSum}");
-Console.WriteLine($"Invalid Product Id Sum (2): {invalidIdSum2}");
+Console.WriteLine($"Invalid Product Id Sum: {day02Part1Solution}");
+Console.WriteLine($"Invalid Product Id Sum (2): {day02Part2Solution}");
 
 Console.WriteLine();
 Console.WriteLine("===================================");
