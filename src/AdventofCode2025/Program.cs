@@ -76,6 +76,20 @@ Console.WriteLine();
 Console.WriteLine("===================================");
 Console.WriteLine();
 
+Console.WriteLine("Advent of Code 2025 - Day 7");
+
+var day07Part1Solution = Day07.GetPart1Solution();
+var day07Part2Solution = Day07.GetPart2Solution();
+
+Console.WriteLine($"Part 1 Solution: {day07Part1Solution}");
+Console.WriteLine($"Part 2 Solution: {day07Part2Solution}");
+
+Console.WriteLine();
+Console.WriteLine("===================================");
+Console.WriteLine();
+
+
+
 
 
 
